@@ -1,0 +1,36 @@
+
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#gameBoard {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 315px; 
+}
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+#message {
+    font-size: 24px;
+    color: green;
+
+}
+
